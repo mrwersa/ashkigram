@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3B958A1C37065E00233B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B95891C37065E00233B13 /* main.m */; };
+		DB3B958D1C37065E00233B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B958C1C37065E00233B13 /* AppDelegate.m */; };
+		DB3B95901C37065E00233B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B958F1C37065E00233B13 /* ViewController.m */; };
+		DB3B95931C37065E00233B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3B95911C37065E00233B13 /* Main.storyboard */; };
+		DB3B95951C37065E00233B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3B95941C37065E00233B13 /* Assets.xcassets */; };
+		DB3B95981C37065E00233B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3B95961C37065E00233B13 /* LaunchScreen.storyboard */; };
+		DB3B95A31C37065E00233B13 /* AshkigramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B95A21C37065E00233B13 /* AshkigramTests.m */; };
+		DB3B95AE1C37065E00233B13 /* AshkigramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3B95AD1C37065E00233B13 /* AshkigramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3B959F1C37065E00233B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3B957D1C37065E00233B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3B95841C37065E00233B13;
+			remoteInfo = Ashkigram;
+		};
+		DB3B95AA1C37065E00233B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3B957D1C37065E00233B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3B95841C37065E00233B13;
+			remoteInfo = Ashkigram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3B95851C37065E00233B13 /* Ashkigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ashkigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B95891C37065E00233B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3B958B1C37065E00233B13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3B958C1C37065E00233B13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3B958E1C37065E00233B13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3B958F1C37065E00233B13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB3B95921C37065E00233B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3B95941C37065E00233B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3B95971C37065E00233B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3B95991C37065E00233B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3B959E1C37065E00233B13 /* AshkigramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AshkigramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B95A21C37065E00233B13 /* AshkigramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AshkigramTests.m; sourceTree = "<group>"; };
+		DB3B95A41C37065E00233B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3B95A91C37065E00233B13 /* AshkigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AshkigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3B95AD1C37065E00233B13 /* AshkigramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AshkigramUITests.m; sourceTree = "<group>"; };
+		DB3B95AF1C37065E00233B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3B95821C37065E00233B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B959B1C37065E00233B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B95A61C37065E00233B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3B957C1C37065E00233B13 = {
+			isa = PBXGroup;
+			children = (
+				DB3B95871C37065E00233B13 /* Ashkigram */,
+				DB3B95A11C37065E00233B13 /* AshkigramTests */,
+				DB3B95AC1C37065E00233B13 /* AshkigramUITests */,
+				DB3B95861C37065E00233B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3B95861C37065E00233B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B95851C37065E00233B13 /* Ashkigram.app */,
+				DB3B959E1C37065E00233B13 /* AshkigramTests.xctest */,
+				DB3B95A91C37065E00233B13 /* AshkigramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3B95871C37065E00233B13 /* Ashkigram */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B958B1C37065E00233B13 /* AppDelegate.h */,
+				DB3B958C1C37065E00233B13 /* AppDelegate.m */,
+				DB3B958E1C37065E00233B13 /* ViewController.h */,
+				DB3B958F1C37065E00233B13 /* ViewController.m */,
+				DB3B95911C37065E00233B13 /* Main.storyboard */,
+				DB3B95941C37065E00233B13 /* Assets.xcassets */,
+				DB3B95961C37065E00233B13 /* LaunchScreen.storyboard */,
+				DB3B95991C37065E00233B13 /* Info.plist */,
+				DB3B95881C37065E00233B13 /* Supporting Files */,
+			);
+			path = Ashkigram;
+			sourceTree = "<group>";
+		};
+		DB3B95881C37065E00233B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B95891C37065E00233B13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3B95A11C37065E00233B13 /* AshkigramTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B95A21C37065E00233B13 /* AshkigramTests.m */,
+				DB3B95A41C37065E00233B13 /* Info.plist */,
+			);
+			path = AshkigramTests;
+			sourceTree = "<group>";
+		};
+		DB3B95AC1C37065E00233B13 /* AshkigramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3B95AD1C37065E00233B13 /* AshkigramUITests.m */,
+				DB3B95AF1C37065E00233B13 /* Info.plist */,
+			);
+			path = AshkigramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3B95841C37065E00233B13 /* Ashkigram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B95B21C37065E00233B13 /* Build configuration list for PBXNativeTarget "Ashkigram" */;
+			buildPhases = (
+				DB3B95811C37065E00233B13 /* Sources */,
+				DB3B95821C37065E00233B13 /* Frameworks */,
+				DB3B95831C37065E00233B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ashkigram;
+			productName = Ashkigram;
+			productReference = DB3B95851C37065E00233B13 /* Ashkigram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3B959D1C37065E00233B13 /* AshkigramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B95B51C37065E00233B13 /* Build configuration list for PBXNativeTarget "AshkigramTests" */;
+			buildPhases = (
+				DB3B959A1C37065E00233B13 /* Sources */,
+				DB3B959B1C37065E00233B13 /* Frameworks */,
+				DB3B959C1C37065E00233B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3B95A01C37065E00233B13 /* PBXTargetDependency */,
+			);
+			name = AshkigramTests;
+			productName = AshkigramTests;
+			productReference = DB3B959E1C37065E00233B13 /* AshkigramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3B95A81C37065E00233B13 /* AshkigramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3B95B81C37065E00233B13 /* Build configuration list for PBXNativeTarget "AshkigramUITests" */;
+			buildPhases = (
+				DB3B95A51C37065E00233B13 /* Sources */,
+				DB3B95A61C37065E00233B13 /* Frameworks */,
+				DB3B95A71C37065E00233B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3B95AB1C37065E00233B13 /* PBXTargetDependency */,
+			);
+			name = AshkigramUITests;
+			productName = AshkigramUITests;
+			productReference = DB3B95A91C37065E00233B13 /* AshkigramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3B957D1C37065E00233B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Saeed Aghaee";
+				TargetAttributes = {
+					DB3B95841C37065E00233B13 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TRFE38MVXA;
+					};
+					DB3B959D1C37065E00233B13 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TRFE38MVXA;
+						TestTargetID = DB3B95841C37065E00233B13;
+					};
+					DB3B95A81C37065E00233B13 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TRFE38MVXA;
+						TestTargetID = DB3B95841C37065E00233B13;
+					};
+				};
+			};
+			buildConfigurationList = DB3B95801C37065E00233B13 /* Build configuration list for PBXProject "Ashkigram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3B957C1C37065E00233B13;
+			productRefGroup = DB3B95861C37065E00233B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3B95841C37065E00233B13 /* Ashkigram */,
+				DB3B959D1C37065E00233B13 /* AshkigramTests */,
+				DB3B95A81C37065E00233B13 /* AshkigramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3B95831C37065E00233B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B95981C37065E00233B13 /* LaunchScreen.storyboard in Resources */,
+				DB3B95951C37065E00233B13 /* Assets.xcassets in Resources */,
+				DB3B95931C37065E00233B13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B959C1C37065E00233B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B95A71C37065E00233B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3B95811C37065E00233B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B95901C37065E00233B13 /* ViewController.m in Sources */,
+				DB3B958D1C37065E00233B13 /* AppDelegate.m in Sources */,
+				DB3B958A1C37065E00233B13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B959A1C37065E00233B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B95A31C37065E00233B13 /* AshkigramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3B95A51C37065E00233B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3B95AE1C37065E00233B13 /* AshkigramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3B95A01C37065E00233B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3B95841C37065E00233B13 /* Ashkigram */;
+			targetProxy = DB3B959F1C37065E00233B13 /* PBXContainerItemProxy */;
+		};
+		DB3B95AB1C37065E00233B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3B95841C37065E00233B13 /* Ashkigram */;
+			targetProxy = DB3B95AA1C37065E00233B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3B95911C37065E00233B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3B95921C37065E00233B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3B95961C37065E00233B13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3B95971C37065E00233B13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3B95B01C37065E00233B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB3B95B11C37065E00233B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3B95B31C37065E00233B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ashkigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.Ashkigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB3B95B41C37065E00233B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ashkigram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.Ashkigram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB3B95B61C37065E00233B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AshkigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.AshkigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashkigram.app/Ashkigram";
+			};
+			name = Debug;
+		};
+		DB3B95B71C37065E00233B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AshkigramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.AshkigramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashkigram.app/Ashkigram";
+			};
+			name = Release;
+		};
+		DB3B95B91C37065E00233B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AshkigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.AshkigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ashkigram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB3B95BA1C37065E00233B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AshkigramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashknaz.saeed.AshkigramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ashkigram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3B95801C37065E00233B13 /* Build configuration list for PBXProject "Ashkigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B95B01C37065E00233B13 /* Debug */,
+				DB3B95B11C37065E00233B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3B95B21C37065E00233B13 /* Build configuration list for PBXNativeTarget "Ashkigram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B95B31C37065E00233B13 /* Debug */,
+				DB3B95B41C37065E00233B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3B95B51C37065E00233B13 /* Build configuration list for PBXNativeTarget "AshkigramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B95B61C37065E00233B13 /* Debug */,
+				DB3B95B71C37065E00233B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3B95B81C37065E00233B13 /* Build configuration list for PBXNativeTarget "AshkigramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3B95B91C37065E00233B13 /* Debug */,
+				DB3B95BA1C37065E00233B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3B957D1C37065E00233B13 /* Project object */;
+}
